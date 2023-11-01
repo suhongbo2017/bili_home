@@ -1,0 +1,75 @@
+.bili-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 24px;
+    box-sizing: border-box;
+}
+
+/* 左侧入口区 */
+.left-entry {
+    display: flex;
+}
+
+.left-entry .entry-title {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    color: #ffffff;
+    margin-right: 15px;
+
+}
+
+.left-entry .entry-titli svg {
+    margin-right: 6px;
+
+}
+
+/* 中间的搜索区 */
+.enter-search-container {
+    flex: 1;
+    height: 40;
+    padding: 0 48px 0 4px;
+    border-radius: 8px;
+    border: 1px solid #cdcecf;
+    background-color: #f1f2f3;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.enter-search-container .nav-search-button {
+    position: absolute;
+    
+    right: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color .3s;
+
+
+}
+.enter-search-container:hover {
+    background-color: #ffffff;
+}
+
+.enter-search-container .nav-search-content {
+    display: flex;
+    height: 20px;
+    width: 100%;
+    padding: 0 8px;
+}
+
+.nav-search-content .nav-search-input {
+    flex: 1;
+    background-color: transparent;
+    line-height: 20px;
+    overflow: hidden;
+    padding-right: 8px;
+}
