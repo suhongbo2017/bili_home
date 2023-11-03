@@ -4,6 +4,9 @@
     width: 100%;
     padding: 0 24px;
     box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
 }
 
 /* 左侧入口区 */
@@ -72,4 +75,116 @@
     line-height: 20px;
     overflow: hidden;
     padding-right: 8px;
+}
+
+/* 右侧入口 */
+
+
+.right-entry {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+
+}
+
+.right-entry .header-avatar {
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.right-entry .header-avatar a {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    background-color: #00aeec;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.right-entry .right-entry-item {
+    min-width: 50px;
+    margin-right: 4px;
+
+    
+}
+
+.right-entry .right-entry-item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.right-entry-item a span {
+    font-size: 13px;
+
+}
+
+.right-entry .upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 34px;
+    line-height: 34px;
+    color:#fff;
+    background-color: #fb7299;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.right-entry .upload span {
+    margin-left: 5px;
+}
+
+
+/* banner区域 */
+.bilibili-banner {
+    position: relative;
+    height: 155px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bilibili-banner img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bilibili-banner .logo {
+    width: 100%;
+    height: 100%;
+    padding: 0 64px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.bilibili-banner .logo a {
+    position: relative;
+    width: 162px;
+    height: 78px;
+    margin-bottom: 10px;
+
+
+}
+
+.bilibili-banner .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(#0000),transparent());
 }
